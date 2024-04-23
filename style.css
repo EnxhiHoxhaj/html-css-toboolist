@@ -1,15 +1,55 @@
-*{
-    background-color: rgb(236, 236, 236);
+body{
+    background-color: rgb(229, 229, 230);
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 #testata{
     background-color: aliceblue;
-    height: 80px;
+    height: 70px;
+    font-size: 25px;
+}
+#logo{
+    vertical-align: middle;
 }
 #nome{
     display: inline;
+    vertical-align: middle
+}
+
+main{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    
+}
+ .contenitore{
+    padding-top: 30px;
+    line-height: 40px;   
+ }
+.titolo{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.add{
+    color: white;
+    background-color: rgb(21, 150, 209);
+    border-color: rgb(21, 150, 209);
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px;
+}
+#section{
+    background-color: aliceblue; 
+    border-color: lightgray; 
+    color: lightgray;
 }
 
 .simbolo-fatto:after{
@@ -17,16 +57,22 @@
     color: green;
     border-radius: 50%;
     border: solid green;
+    padding: 1px ;
+    padding-top: 1px;
 }
 .simbolo-nonfatto:after{
     content: "\2715";
     color: rgb(221, 38, 38);
     border-radius: 50%;
     border: solid rgb(221, 38, 38);
+    padding: 1px ;
 }
 .riquadro{
-    border-radius: 25% ;
+    border-radius: 10px ;
     padding: 5px;
+    color: white;
+    font-size: 12px;
+    
 }
 .azzura{
     background-color: rgb(21, 150, 209);
