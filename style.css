@@ -18,9 +18,32 @@
     border-radius: 50%;
     border: solid green;
 }
-
-.editorial{
-    background-color: rgb(21, 150, 209);
+.simbolo-nonfatto:after{
+    content: "\2715";
+    color: rgb(221, 38, 38);
+    border-radius: 50%;
+    border: solid rgb(221, 38, 38);
+}
+.riquadro{
     border-radius: 25% ;
     padding: 5px;
+}
+.azzura{
+    background-color: rgb(21, 150, 209);
+}
+
+.viola{
+    background-color: rgb(173, 117, 247);
+}
+.verde{
+    background-color: rgb(28, 230, 62);
+}
+.arancione{
+    background-color: rgb(226, 148, 46);
+}
+.rosso{
+    background-color: rgb(252, 34, 18);
+}
+.oliva{
+    background-color: rgb(124, 184, 96);
 }
