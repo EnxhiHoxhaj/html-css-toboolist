@@ -1,0 +1,3 @@
+Il progetto consiste in una "Todo List" interattiva, realizzata con HTML e CSS, che presenta in modo visivo e ordinato un elenco di attività da completare e attività già svolte. La pagina è progettata con un'intestazione che include il logo e il titolo, la struttura della lista è suddivisa in sezioni, ognuna dedicata a categorie specifiche come "New Task", "Today" e "Upcomming".
+Gli utenti possono visualizzare le attività e i loro stati (fatte o non fatte) tramite simboli distintivi e etichette colorate che identificano il tipo di attività. Inoltre, ci sono pulsanti per aggiungere nuove attività o sezioni, sebbene queste funzioni siano implementate in modo fittizio.
+Il layout è pulito e moderno, con una palette di colori armoniosa che migliora l'esperienza utente.
