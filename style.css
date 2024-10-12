@@ -54,24 +54,30 @@ main{
 
 .simbolo-fatto:after{
     content: "\2713";
+    font-weight: bold;
+    font-size: 20px;
     color: green;
-    border-radius: 50%;
     border: solid green;
-    padding: 1px ;
-    padding-top: 1px;
+    border-radius: 25px;
+    padding: 0 4px;
 }
 .simbolo-nonfatto:after{
     content: "\2715";
+    font-weight: bold;
+    font-size: 20px;
     color: rgb(221, 38, 38);
-    border-radius: 50%;
     border: solid rgb(221, 38, 38);
-    padding: 1px ;
+    border-radius: 25px;
+    padding: 0 4px;
 }
 .riquadro{
     border-radius: 10px ;
-    padding: 5px;
+    margin: 0 10px;
+    padding: 5px 8px;
     color: white;
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 .azzura{
